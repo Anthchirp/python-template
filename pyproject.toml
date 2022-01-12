@@ -7,3 +7,6 @@ profile = "black"
 
 [tool.pytest.ini_options]
 addopts = "-ra"
+
+[tool.mypy]
+mypy_path = "src"
